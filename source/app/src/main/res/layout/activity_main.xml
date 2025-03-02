@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <!-- ImageView chính (img1) -->
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/img" />
+
+    <!-- TextView bên dưới img1 -->
+    <TextView
+        android:id="@+id/textBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nguyễn Thành Đức"
+        android:textSize="33sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_below="@id/img1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:id="@+id/textBirth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="04/01/2004"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/textBold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/textAddresss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hồ Chí Minh, Việt Nam"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/textBirth"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp" />
+
+    <!-- ImageView bên trái (imageView) -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="68dp"
+        android:layout_height="67dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/back" />
+
+    <!-- ImageView bên phải (imageView4) -->
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/infor" />
+
+</RelativeLayout>
