@@ -6,5 +6,6 @@ Câu 2: Trong 10 năm tới, lập trình di động có phát triển không? T
 Có. Lập trình di động sẽ tiếp tục phát triển mạnh mẽ vì: Sự phổ biến của smartphone ngày càng tăng và là thiết bị không thể thiếu trong cuộc sống. Các dịch vụ trực tuyến như thương mại điện tử, thanh toán di động (Momo, ZaloPay), mạng xã hội (Facebook, TikTok) đều dựa vào ứng dụng di động. Công nghệ 5G, IoT (Internet of Things), AI (trí tuệ nhân tạo) và AR/VR sẽ giúp các ứng dụng di động thông minh hơn, hỗ trợ người dùng nhiều hơn. Nhu cầu về bảo mật, thanh toán không dùng tiền mặt và giải trí trên di động ngày càng tăng. Ứng dụng di động không chỉ dừng lại ở các thiết bị smartphone mà còn phát triển trên các thiết bị đeo thông minh như smartwatch và kính thông minh.
 
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/eba64fc9-4a08-4c25-8c99-4071f2bbe861)
+
 
